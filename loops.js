@@ -32,12 +32,21 @@ function maybeTrue() {
 function doWhileLoop(array) {
   
   do {
+<<<<<<< HEAD
   array.shift() ;
   
 } while (array.length > 0 && maybeTrue()) ;
 
 
  return array ; 
+=======
+  [array.shift()] ;
+  
+} while ([array.length > 0 && maybeTrue()]) ;
+
+
+  return array
+>>>>>>> f9766d1814e314b5e7d99b9528b4d5036cbfff60
   
   
 }
